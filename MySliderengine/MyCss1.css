@@ -1,0 +1,346 @@
+*{
+	margin:1px;
+	padding:0;
+}
+.slide{
+	padding-top:2.1vh;
+	padding-bottom:7.8vh;
+	//border:1px solid green;
+}
+html
+{
+	background-color:white;
+}
+.he
+{	
+    
+    margin:10px;
+    //border:1px dotted black;
+    background-color:white;
+	//background-image:url(b1.jpg);
+	height:200px;
+	//width:100%;
+	//width:1310px;
+	//background-size:cover;
+	//background-position:center;
+}
+
+.row
+{
+	
+	
+	//border:1px solid black;
+	height:165px;
+	max-width:1330px;
+	margin:10px;
+	//display:block;
+}
+.img1
+{
+	//border:1px solid red;
+	width:120px;
+	//width:10%;
+	height:150px;
+	margin-left:20px;
+	margin-top:10px;
+}
+.img2
+{
+	padding-top:40px;
+	//border:1px solid red;
+	//width:25%;	
+	width:400px;
+	height:110px;
+}
+	
+.row h1{
+	font-size:60px;
+	margin-top:10px;
+	color:#FF2A7F;
+	text-align:left;
+}
+.logo img
+{
+	float:left;	
+	//width:120px;
+		
+}
+
+
+.navmenu
+{
+	float:right;	
+	margin:50px;
+	width:620px;
+	margin:20px 50px 80px 50px;	
+	font-weight:bold;	
+}
+.menu li{
+	
+	float:left;	
+	position:relative;
+}
+.navmenu li a
+{
+	color:#470445;//#021e2d;
+	font-size:20px;
+	text-decoration:none;
+	padding:5px 15px;
+}
+.navmenu li a.active
+{
+	border: solid #FF2A7F;
+}
+.navmenu li a:hover
+{
+	border:.5px solid #FF2A7F;
+}
+@media only screen and (max-width: 600px){
+.he
+{
+	width:100%;
+	height:auto;
+}	
+.row{
+	width:100%;
+	
+}
+	.logo{
+	width:40%;
+	}
+	
+	.img1{
+		width:20%;
+		height:30%;
+	}
+	.img2{
+		width:25%;
+		height:30%;
+	}
+	.navmenu
+	{
+		
+		float:right;
+		margin-left:15px;
+		width:60%;
+		
+	}
+	
+	.menu li a{
+	font-size:10px;	
+	padding:3px 5px;
+	}
+	.navmenu li a.active{
+	   border: solid red;/*#FF2A7F;*/
+	}
+	.navmenu li a:hover{
+		border: 3px solid red;/*#FF2A7F;*/
+	}
+	
+}
+
+
+
+
+ul{
+	list-style:none;
+}
+
+
+
+li ul {
+	position:absolute;	
+	}
+.menu li ul li{
+	display:none;
+}	
+.menu li:hover ul li{
+	display:block;
+}
+
+
+/*Courses*/
+
+.course
+{
+	   background-color:gray;
+	    border:1px solid black;
+		//position:absolute;
+		//width:1340px;
+		//height:220px;
+		margin-left:0px;
+		margin-top:20px;
+		padding-bottom:20px;
+}
+h1{
+	
+	color:white;
+	text-transform:uppercase;
+	//font-size:70px;
+	//color:white;
+	text-align:center;
+}
+
+.button
+{	
+	margin-top:30px;
+	margin-left:50px;
+}
+@media only screen and (max-width: 600px){ 
+.button
+{	
+	margin-top:10px;
+	margin-left:50px;
+}
+}
+.btn
+{	
+	text-transform:uppercase;
+	font-size:1.5vw;		
+	text-decoration:none;
+	border:1px solid #2AFFFF;
+	color:#2AFFFF;
+	margin-right:1vh;
+	padding:0.2vh 2.5vw;
+}
+.btn_one
+{
+	background-color:#ebf63c;
+}
+.btn_two:hover
+{
+	background-color:darkorange;
+}
+/*AboutUS Team Intro*/
+.menucom {	
+	text-align:justify;	
+}
+
+.Intro
+{
+	clear:float;
+	padding-top:20px;
+	//height:150px;
+	background-color:#085A94;
+}
+.AboutUs{	
+    padding-top:20px;
+	background-color:#24336d;
+}
+.team{
+	
+	background-color:#818d9a;
+}
+.al{
+	padding:10px 80px;
+}
+
+
+/*Contact US*/
+.contactus{
+	//width:100%;
+	
+	background-color:#006bf9;//#88baec;
+	//border:1px solid red;
+	
+}
+
+/*Reg Form */
+.left
+{
+	margin:0.5vh 18vw;;
+}
+label
+{
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:18px;
+	color:#ee6409;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=email]{
+	width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical
+}
+input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  margin-left:18vw;
+  background-color: #4CAF50;
+  font-weight:bold;
+  font-size:20px;
+  color: white;
+  padding: 2vh 7vw;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px; 
+  padding: 20px;
+}
+
+/*Adress Details*/
+ .big
+{
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:18px;
+	color:Orange;
+}
+.small
+{
+	font-weight:bold;
+	font-size:13px;
+}
+
+.right div{
+	padding-left:9.5vw;
+	width:21vw;
+	//height:200%;
+	//float:left;
+	display:inline-block;
+	//border:1px solid red;
+}
+@media only screen and (max-width: 600px){ 
+.big
+{	
+	font-size:13px;
+	color:Purple;
+}
+.small
+{
+	font-size:7px;
+}
+}
+
+
+/*Copy*/
+.copy{
+	//clear:left;	
+	background-color:#041220;
+	color:#D400FF;
+}
